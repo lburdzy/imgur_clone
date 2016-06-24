@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # 3d party apps
     'django_extensions',
+    'taggit',
 
     # own apps
     'images',
@@ -61,7 +62,9 @@ ROOT_URLCONF = 'imgur.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            'imgur.templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
