@@ -1,0 +1,65 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+/* line 10, ../../frontend/sass/style.scss */
+nav ul a, nav .brand-logo {
+  color: #444;
+}
+
+/* line 15, ../../frontend/sass/style.scss */
+p {
+  line-height: 2rem;
+}
+
+/* line 19, ../../frontend/sass/style.scss */
+.button-collapse {
+  color: #26a69a;
+}
+
+/* line 23, ../../frontend/sass/style.scss */
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+/* line 28, ../../frontend/sass/style.scss */
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 34, ../../frontend/sass/style.scss */
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  /* line 38, ../../frontend/sass/style.scss */
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 44, ../../frontend/sass/style.scss */
+  #index-banner .section {
+    top: 0;
+  }
+}
+/* line 49, ../../frontend/sass/style.scss */
+.icon-block {
+  padding: 0 15px;
+}
+/* line 51, ../../frontend/sass/style.scss */
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* line 56, ../../frontend/sass/style.scss */
+footer.page-footer {
+  margin: 0;
+}
