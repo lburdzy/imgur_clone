@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # 3d party apps
     'django_extensions',
     'taggit',
+    'imagekit',
 
     # own apps
     'images',
